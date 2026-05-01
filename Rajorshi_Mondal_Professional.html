@@ -12,6 +12,7 @@
     --text:#222;
     --muted:#666;
     --maxw:800px;
+    --heading:rgb(121, 0, 0);
   }
   body{font-family:'Open Sans', Arial, sans-serif; color:var(--text); margin:0; padding:0; background:#fff; display:flex; justify-content:center;}
   .page{width:100%; max-width:var(--maxw); padding:28px 36px; box-sizing:border-box;}
@@ -21,14 +22,14 @@
   .role{color:var(--muted); font-size:12px; margin-top:4px;}
   .contact{margin-top:10px; font-size:13px; color:var(--muted);}
   .section{margin-top:16px;}
-  .section h2{font-size:13px; color:var(--accent); margin:0 0 8px 0; font-weight:700;}
+  .section h2{font-size:18px; color:var(--accent); margin:0 0 8px 0; font-weight:700;}
   p{margin:0; font-size:12.5px; line-height:1.4;}
   .skills{display:flex; flex-wrap:wrap; gap:8px; margin-top:6px;}
   .skill{background:#f3f8ff; color:var(--text); padding:6px 8px; border-radius:6px; font-size:12px;}
   .projects .proj{margin-bottom:10px;}
   .edu ul, .exp ul{margin:6px 0 0 16px; padding:0;}
   footer{margin-top:26px; text-align:right; color:#999; font-size:11px;}
-  .links a{color:var(--text); text-decoration: none;}
+  .links {color:var(--heading); text-decoration:none; font-size: 14px;}
   .two-col{display:flex; gap:18px;}
   @media print{
     .page{box-shadow:none; margin:0;}
@@ -64,11 +65,13 @@
     </section>
 
     <section class="section projects">
-      <h2>Projects</h2>
+      <h2 >Projects</h2>
       <div class="proj"><a class="links" href ="https://rajorshimondal.github.io/syntecxhub_weather_app_v1/"><strong>Weather App</strong></br></a><small style="color:var(--muted)">Built a fully responsive Weather Application integrating real-time data from the OpenWeatherMap API using HTML5, CSS3 (Flexbox, Grid, Media Queries) and JavaScript (ES6+, Async/Await, Fetch API). Focused on dynamic city-based search, asynchronous data handling, clean DOM updates, error handling, and version control with Git & GitHub.</small></div>
-      <div class="proj"><strong>Expense Tracker (In Progress)</strong><br><small style="color: var(--muted);">Building a full-stack Expense Tracker using React, Node.js, Express.js, and MongoDB — implementing RESTful APIs and complete CRUD functionality for seamless transaction management. Focused on backend integration, local MongoDB connectivity, and efficient state handling between frontend and server.</small></div>
-      <div class="proj"><strong>Durga Puja Website</strong><br/><small style="color:var(--muted)">Developed a visually engaging and responsive website celebrating Durga Puja using HTML, CSS, and Bootstrap. Integrated image galleries, event sections, and a clean layout to enhance user experience.</small></div>
-      <div class="proj"><strong>Personal Portfolio Website</strong><br/><small style="color:var(--muted)">Built a modern personal portfolio website to showcase projects and technical skills using Tailwind CSS and JavaScript. Designed to be mobile-responsive and visually minimalistic.</small></div>
+      <div class="proj"><a class="links" href ="https://rajorshimondal.github.io/Financial-dashboard/"><strong>Financial Dashboard</strong></br></a><small style="color:var(--muted)">A comprehensive financial overview dashboard built with HTML, CSS, and JavaScript. This web application provides users with a complete view of their financial data, including balance tracking, income/expense management, transaction history, and AI-powered financial insights.</small></div>
+      <div class="proj"><a class="links" href ="https://rajorshimondal.github.io/e-comwebsite/"><strong>E-Commerce Website</strong></br></a><small style="color:var(--muted)">Developed a responsive e-commerce website using HTML, CSS, and JavaScript. Implemented product listings, shopping cart functionality, and a user-friendly interface to enhance the online shopping experience.</small></div>
+      <div class="proj"><a class="links" href ="#"><strong>Financial Dashboard in React(In Progress)</strong></br></a><small style="color:var(--muted)"> Developing a modern financial dashboard using React.js and Redux. This project aims to provide a more interactive and efficient way to visualize financial data.</small></div>
+      
+      <div class="proj"><a class="links" href ="https://rajorshimondal.github.io/Personal-Portfolio/"><strong>Personal Portfolio Website</strong></br></a><small style="color:var(--muted)">Built a modern personal portfolio website to showcase projects and technical skills using Tailwind CSS and JavaScript. Designed to be mobile-responsive and visually minimalistic.</small></div>
     </section>
 
     <section class="section exp">
@@ -102,7 +105,7 @@
       <p>UI/UX Design · Web Animation · Creative Coding</p>
     </section>
 
-    <footer>Page 1</footer>
+    <footer>Created with HTML and CSS</footer>
   </div>
 </body>
 </html>
